@@ -23,7 +23,7 @@ export default function Home() {
         </Link>
 
         <h1 className="text-4xl font-semibold text-center">
-                    [CI/CD Dat Tan] Empower your Future with {
+                    [CI/CD Dat Tan] Empower your Future with
           <HighlightText text="Coding Skills" />
         </h1>
 
