@@ -2,6 +2,9 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["typeorm"],
+
+        // Tat nen code phia server de TypeORM giu dung ten bang
+    serverMinification: false,
   },
   webpack(config) {
     config.module.rules.push({
